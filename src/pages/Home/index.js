@@ -1,12 +1,12 @@
 import { useEffect } from 'react';
 
-import Header from '../../components/Header';
-import SearchBar from '../../components/SearchBar';
-import NavBar from '../../components/NavBar';
 import Banner from '../../components/Banner';
+import Header from '../../components/Header';
+import NavBar from '../../components/NavBar';
+import SearchBar from '../../components/SearchBar';
+import Section from '../../components/Section';
 
 /*
-import Section from '../../components/Section';
 import Footer from '../../components/Footer';
 */
 
@@ -21,10 +21,10 @@ function Home() {
       <SearchBar />
       <NavBar />
       <Banner />
-      {/*<Section titulo='Ofertas' />
+      <Section titulo='Ofertas' />
       <Section titulo='Feminino' />
       <Section titulo='Masculino' />
-      <Footer /> */}
+      {/*<Footer /> */}
     </div>
   );
 }
