@@ -8,9 +8,9 @@ function Header() {
 
       <nav>
         <ul>
-          <li><Link className='option' to="/registrar">Cadastrar</Link></li>
+          <li><Link className='option' to="/register">Cadastrar</Link></li>
           <li><Link className='option' to="/login">Entrar</Link></li>
-          <li><Link className='option' to="/carrinho">Carrinho</Link></li>
+          <li><Link className='option' to="/cart">Carrinho</Link></li>
         </ul>
       </nav>
     </header>

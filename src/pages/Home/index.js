@@ -1,11 +1,14 @@
 import { useEffect } from 'react';
 
 import Header from '../../components/Header';
-/*import Banner from '../../components/Banner';
-import NavBar from '../../components/NavBar';
 import SearchBar from '../../components/SearchBar';
+import NavBar from '../../components/NavBar';
+import Banner from '../../components/Banner';
+
+/*
 import Section from '../../components/Section';
-import Footer from '../../components/Footer'; */
+import Footer from '../../components/Footer';
+*/
 
 function Home() {
   useEffect(() => {
@@ -15,10 +18,10 @@ function Home() {
   return (
     <div className="container">
       <Header />
-      {/* <SearchBar />
+      <SearchBar />
       <NavBar />
       <Banner />
-      <Section titulo='Ofertas' />
+      {/*<Section titulo='Ofertas' />
       <Section titulo='Feminino' />
       <Section titulo='Masculino' />
       <Footer /> */}
