@@ -4,7 +4,7 @@ import './styles.css';
 
 function BoxProduct({ img, title, preco, id }) {
   return (
-    <div className="product-container">
+    <div className="product-box-container">
       <Link to={`/product/${id}`} >
         <div className='image-container'>
           <img src={img} alt={title} />
