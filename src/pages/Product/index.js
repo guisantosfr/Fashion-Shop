@@ -25,7 +25,6 @@ function Product() {
 
   useEffect(() => {
     const foundProduct = productsList.find(item => item.id === idProduct);
-    console.log(foundProduct);
 
     setPreco(Number(foundProduct.value) * 100);
 

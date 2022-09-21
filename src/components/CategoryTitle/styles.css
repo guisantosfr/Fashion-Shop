@@ -1,0 +1,17 @@
+.category-title {
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.category-title-center {
+  width: 85%;
+  margin: auto;
+  border-left: 5px solid black;
+  padding-left: 1.25rem;
+}
+
+@media(max-width: 450px) {
+  .category-title h2 {
+    font-size: 1.2rem;
+  }
+}
