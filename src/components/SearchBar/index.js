@@ -17,11 +17,11 @@ function SearchBar() {
   const handleInput = (e) => {
     e.preventDefault();
     const search = pesquisa;
-    navigate(`../result?search=${search}`, { replace: true });
+    navigate(`../results?search=${search}`, { replace: true });
   }
 
   return (
-    <section className="search-container">
+    <section className="searchbar-container">
       <form className="form">
         <div className='label'>
           <label>Pesquisar: </label>
