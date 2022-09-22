@@ -6,10 +6,7 @@ import Register from './pages/Register';
 import Product from './pages/Product';
 import Search from './pages/Search';
 import Category from './pages/Category';
-
-/*
 import Cart from './pages/Cart';
-*/
 
 function App() {
   return (
@@ -22,8 +19,7 @@ function App() {
         <Route path='results' element={<Search />} />
         <Route path='man' element={<Category option='man' />} />
         <Route path='woman' element={<Category option='woman' />} />
-        {/*
-        <Route path='cart' element={<Cart />} /> */}
+        <Route path='cart' element={<Cart />} />
       </Routes>
     </div>
   );
